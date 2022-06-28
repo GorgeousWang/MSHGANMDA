@@ -1,4 +1,5 @@
-# Hierarchical graph attention network for miRNA-disease associations prediction
+# MSHGANMDA
+MSHGANMDA is a new method for miRNA-disease association prediction.
 
 ## Environments
 - Python 3.6.13
@@ -9,51 +10,25 @@
 
 ## Dataset
 ### M-d association
-miRNA-disease associations  基因疾病关联
+miRNA-disease associations 
 ### Multi-types m-d association
 wfy_multi_all_mirna_disease_pairs_without_negative  # multi-types associations
 ### Node Features
-disease features : D_SSM1,D_SSM2,D_GSM
-miRNA features :   M_FSM,        M_GSM  数据源自IMCMDA
-
-D_SSM1,M_FSM  方法源自
-
-@article{
-   author = {Wang, D. and Wang, J. and Lu, M. and Song, F. and Cui, Q.},
-   title = {Inferring the human microRNA functional similarity and functional network based on microRNA-associated diseases},
-   journal = {Bioinformatics},
-   volume = {26},
-   number = {13},
-   pages = {1644-50},
-   year = {2010}
-}
-D_SSM2 方法源自
-
-@misc{
-   author = {Chen, Xing and Wang, Lei and Qu, Jia and Guan, Na-Na and Li, Jian-Qiang},
-   title = {Predicting miRNA-disease association based on inductive matrix completion},
-   volume = {34},
-   number = {24},
-   pages = {4256-4265},
-   month = {Dec 15},
-   year = {2018}
-}
-
-D_GSM M_GSM 方法源自 
-
-@article{
-   author = {Chen, Xing and Yan, Chenggang Clarence and Zhang, Xu and You, Zhu-Hong and Huang, Yu-An and Yan, Gui-Ying},
-   title = {HGIMDA: Heterogeneous graph inference for miRNA-disease association prediction},
-   journal = {Oncotarget},
-   volume = {7},
-   number = {40},
-   pages = {65257-65269},
-   year = {2016}
-}
-
+disease features : D_SSM1,D_SSM2,D_GSM   
+miRNA features :   M_FSM,M_GSM  
 
 
 ## How to run?
 ```
 python main.py 
 ```
+
+# If you refer to our work, please cite
+@article{
+   author = {Wang, Shudong and Wang, Fuyu and Qiao, Sibo and Zhuang, Yu and Zhang, Kuijie and Pang, Shanchen and Nowak, Robert and Lv, Zhihan},
+   title = {MSHGANMDA: Meta-Subgraphs Heterogeneous Graph Attention Network for miRNA-Disease Association Prediction},
+   journal = {IEEE Journal of Biomedical and Health Informatics},
+   pages = {1-10},
+   year = {2022}
+}
+
