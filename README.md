@@ -25,11 +25,11 @@ python main.py
 
 # If you refer to our study, please cite
 @ARTICLE{9807419,
-  author={Wang, Shudong and Wang, Fuyu and Qiao, Sibo and Zhuang, Yu and Zhang, Kuijie and Pang, Shanchen and Nowak, Robert and Lv, Zhihan},
-  journal={IEEE Journal of Biomedical and Health Informatics}, 
-  title={MSHGANMDA: Meta-Subgraphs Heterogeneous Graph Attention Network for miRNA-Disease Association Prediction}, 
-  year={2023},
-  volume={27},
-  number={10},
-  pages={4639-4648},
+  author={Wang, Shudong and Wang, Fuyu and Qiao, Sibo and Zhuang, Yu and Zhang, Kuijie and Pang, Shanchen and Nowak, Robert and Lv, Zhihan},  
+  journal={IEEE Journal of Biomedical and Health Informatics},   
+  title={MSHGANMDA: Meta-Subgraphs Heterogeneous Graph Attention Network for miRNA-Disease Association Prediction},   
+  year={2023},  
+  volume={27},  
+  number={10},  
+  pages={4639-4648},  
   doi={10.1109/JBHI.2022.3186534}}
