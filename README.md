@@ -12,7 +12,7 @@ MSHGANMDA is a new method for miRNA-disease association prediction.
 ### M-d association
 miRNA-disease associations 
 ### Multi-types m-d association
-wfy_multi_all_mirna_disease_pairs_without_negative 
+multi_all_mirna_disease_pairs_without_negative 
 ### Node Features
 disease features : D_SSM1,D_SSM2,D_GSM   
 miRNA features :   M_FSM,M_GSM  
@@ -24,6 +24,7 @@ python main.py
 ```
 
 # If you refer to our study, please cite
+```text
 @ARTICLE{9807419,
   author={Wang, Shudong and Wang, Fuyu and Qiao, Sibo and Zhuang, Yu and Zhang, Kuijie and Pang, Shanchen and Nowak, Robert and Lv, Zhihan},  
   journal={IEEE Journal of Biomedical and Health Informatics},   
@@ -33,3 +34,4 @@ python main.py
   number={10},  
   pages={4639-4648},  
   doi={10.1109/JBHI.2022.3186534}}
+```
